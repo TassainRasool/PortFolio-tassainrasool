@@ -1,5 +1,5 @@
 
-  # Portfolio Structure Design by Tassain Rasool Malik
+  # Portfolio Structure Design
 
   This is a code bundle for Portfolio Structure Design. The original project is available at https://www.figma.com/design/cM4j9UHMRMMWOGdGcGqosL/Portfolio-Structure-Design.
 
