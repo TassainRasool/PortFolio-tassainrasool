@@ -79,7 +79,7 @@ export function About() {
                       <Zap className="text-[#00ADB5]" size={24} />
                     </div>
                   </div>
-                  <p className="text-2xl text-[#222831]">15+</p>
+                  <p className="text-2xl text-[#222831]">3+</p>
                   <p className="text-sm text-gray-600">Projects</p>
                 </div>
                 <div className="text-center">

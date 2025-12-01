@@ -75,7 +75,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/TassainRasool" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#00ADB5] transition-colors"
@@ -84,16 +84,16 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://linkedin.com" 
-                  target="_blank" 
+                <a
+                  href="https://www.linkedin.com/in/trm0229"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#00ADB5] transition-colors"
                 >
                   LinkedIn
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a 
                   href="https://twitter.com" 
                   target="_blank" 
@@ -102,10 +102,10 @@ export function Footer() {
                 >
                   Twitter
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a 
-                  href="mailto:your.email@example.com"
+                  href="mailto:iamtassain@gmail.com"
                   className="text-gray-400 hover:text-[#00ADB5] transition-colors"
                 >
                   Email
@@ -117,7 +117,7 @@ export function Footer() {
         
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center gap-2">
-            © {currentYear} Tassain Rasool Malik. Code with <Heart size={16} className="text-[#00ADB5]" fill="currentColor" /> and passion.
+            © {currentYear} Tassain Rasool Malik. Code with <Heart size={16} className="text-[#00ADB5]" fill="currentColor" /> and Passion.
           </p>
         </div>
       </div>

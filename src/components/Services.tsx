@@ -25,7 +25,7 @@ const services = [
     icon: Smartphone,
     title: "Mobile App Development",
     description: [
-      "Cross-platform apps (React Native, Flutter)",
+      "Cross-platform apps (React Native)",
       "iOS and Android support",
       "App store deployment"
     ]
@@ -48,15 +48,15 @@ const services = [
       "Feature enhancements"
     ]
   },
-  {
-    icon: Server,
-    title: "Backend Development",
-    description: [
-      "RESTful API development",
-      "Database design & integration (SQL, NoSQL)",
-      "Authentication and authorization systems"
-    ]
-  },
+  // {
+  //   icon: Server,
+  //   title: "Backend Development",
+  //   description: [
+  //     "RESTful API development",
+  //     "Database design & integration (SQL, NoSQL)",
+  //     "Authentication and authorization systems"
+  //   ]
+  // },
   {
     icon: Cloud,
     title: "Deployment & DevOps",

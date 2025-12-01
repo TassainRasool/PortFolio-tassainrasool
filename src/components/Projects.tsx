@@ -7,41 +7,44 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const projects = [
   {
-    title: "E-Commerce Mobile App",
-    client: "Fashion Startup",
-    description: "Built with Flutter & Firebase for real-time inventory management and seamless checkout experience.",
-    problem: "Client needed a fast, modern mobile app to compete in the fashion e-commerce space.",
-    solution: "Developed a cross-platform app with real-time inventory, push notifications, and integrated payment gateway.",
-    results: "Reduced checkout time by 30% | 50k+ downloads | 4.8★ rating",
-    tech: ["Flutter", "Firebase", "REST API", "Stripe"],
-    image: "https://images.unsplash.com/photo-1758526213756-9aecbea6bcfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBzaG9wcGluZyUyMGFwcHxlbnwxfHx8fDE3NjAzMzc0NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    demoLink: "#",
-    githubLink: "#"
+ title: "G20 India Official Website",
+    client: "Government of India",
+    description:
+      "Contributed as UI/UX designer for India's G20 Presidency website, collaborating on creating an intuitive and culturally rich digital experience for global audiences.",
+    problem:
+      "Needed a design system that could represent India's heritage while ensuring accessibility and usability for international visitors.",
+    solution:
+      "Collaborated on wireframes, prototypes, and design systems with focus on multilingual support, accessibility standards, and responsive layouts.",
+     tech: [
+      "Figma",
+      "Prototyping",
+      "Design Systems",
+    ],
+    image:
+      "https://images.unsplash.com/photo-1624357488027-f2235d56bae9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb3Zlcm5tZW50JTIwd2Vic2l0ZSUyMHN1bW1pdHxlbnwxfHx8fDE3NjQ1OTMxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    demoLink: "https://www.g20.in/",
+    githubLink: "#",
   },
   {
-    title: "Healthcare Dashboard",
-    client: "Medical Clinic",
-    description: "A comprehensive web dashboard for patient management, appointment scheduling, and medical records.",
-    problem: "Clinic struggled with paper-based records and manual appointment scheduling.",
-    solution: "Created a React-based dashboard with real-time updates, secure data storage, and automated reminders.",
-    results: "Improved efficiency by 40% | Reduced no-shows by 25%",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MXx8fHwxNzYwMzYxMDc0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    demoLink: "#",
-    githubLink: "#"
+    title: "SHV Energy Corporate Website",
+    client: "SHV Energy",
+    description:
+      "Worked as UI/UX designer on global energy leader's website, contributing to user-centric interface design balancing corporate professionalism with modern web design principles.",
+    problem:
+      "Required a sophisticated design that communicates trust and sustainability while maintaining excellent user experience across all devices.",
+    solution:
+      "Contributed to information architecture, high-fidelity mockups, and interactive prototypes ensuring consistent brand experience globally.",
+    tech: [
+      "Figma",
+      "User Research",
+      "Wireframing",
+      "UI Design",
+    ],
+    image:
+      "https://images.unsplash.com/photo-1759109391527-11b6adf2cc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbmVyZ3klMjBjb21wYW55JTIwaW5kdXN0cmlhbHxlbnwxfHx8fDE3NjQ1OTMxNjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    demoLink: "https://www.shvenergy.com/",
+    githubLink: "#",
   },
-  {
-    title: "Task Management App",
-    client: "Tech Startup",
-    description: "Cross-platform mobile app for team collaboration and project tracking with offline support.",
-    problem: "Remote teams needed a reliable tool that works offline and syncs automatically.",
-    solution: "Built with React Native and implemented offline-first architecture with background sync.",
-    results: "10k+ active users | 95% user satisfaction",
-    tech: ["React Native", "Firebase", "Redux", "AsyncStorage"],
-    image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYwMzQxMzExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    demoLink: "#",
-    githubLink: "#"
-  }
 ];
 
 export function Projects() {
@@ -101,13 +104,13 @@ export function Projects() {
                     </div>
                   </div>
                   
-                  <div className="bg-[#00ADB5]/10 rounded-lg p-3 mb-4">
+                  {/* <div className="bg-[#00ADB5]/10 rounded-lg p-3 mb-4">
                     <div className="flex items-center gap-2 mb-1">
                       <TrendingUp className="text-[#00ADB5]" size={16} />
                       <p className="text-sm text-[#222831]">Results</p>
                     </div>
                     <p className="text-sm text-gray-700">{project.results}</p>
-                  </div>
+                  </div> */}
                   
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech) => (
@@ -126,14 +129,14 @@ export function Projects() {
                     <ExternalLink size={16} className="mr-2" />
                     Live Demo
                   </Button>
-                  <Button
+                  {/* <Button
                     size="sm"
                     variant="outline"
                     className="border-[#00ADB5] text-[#00ADB5] hover:bg-[#00ADB5]/10"
                     onClick={() => window.open(project.githubLink, '_blank')}
                   >
                     <Github size={16} />
-                  </Button>
+                  </Button> */}
                 </CardFooter>
               </Card>
             </motion.div>

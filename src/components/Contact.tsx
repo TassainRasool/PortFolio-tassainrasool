@@ -63,7 +63,7 @@ export function Contact() {
                   <div>
                     <p className="text-sm text-gray-600">Email</p>
                     <a href="mailto:your.email@example.com" className="text-[#222831] hover:text-[#00ADB5]">
-                      your.email@example.com
+                      iamtasain.00@gmail.com
                     </a>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export function Contact() {
                   <div>
                     <p className="text-sm text-gray-600">Phone</p>
                     <a href="tel:+1234567890" className="text-[#222831] hover:text-[#00ADB5]">
-                      +1 (234) 567-890
+                     +91 8899951986
                     </a>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-600">Location</p>
-                    <p className="text-[#222831]">Your City, Country</p>
+                    <p className="text-[#222831]">Anantnag, J & K</p>
                   </div>
                 </div>
                 
@@ -94,7 +94,7 @@ export function Contact() {
                   <p className="text-sm text-gray-600 mb-4">Follow me on social media</p>
                   <div className="flex gap-4">
                     <a 
-                      href="https://github.com" 
+                      href="https://github.com/TassainRasool" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-3 bg-[#00ADB5]/10 rounded-lg hover:bg-[#00ADB5]/20 transition-colors"
@@ -102,21 +102,21 @@ export function Contact() {
                       <Github className="text-[#00ADB5]" size={20} />
                     </a>
                     <a 
-                      href="https://linkedin.com" 
+                      href="https://www.linkedin.com/in/trm0229" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-3 bg-[#00ADB5]/10 rounded-lg hover:bg-[#00ADB5]/20 transition-colors"
                     >
                       <Linkedin className="text-[#00ADB5]" size={20} />
                     </a>
-                    <a 
+                    {/* <a 
                       href="https://twitter.com" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-3 bg-[#00ADB5]/10 rounded-lg hover:bg-[#00ADB5]/20 transition-colors"
                     >
                       <Twitter className="text-[#00ADB5]" size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </CardContent>

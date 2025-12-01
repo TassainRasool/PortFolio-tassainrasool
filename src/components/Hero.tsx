@@ -78,13 +78,13 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="flex gap-6 justify-center"
           >
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#00ADB5] transition-colors">
+            <a href="https://github.com/TassainRasool" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#00ADB5] transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#00ADB5] transition-colors">
+            <a href="https://www.linkedin.com/in/trm0229" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#00ADB5] transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:your.email@example.com" className="text-gray-400 hover:text-[#00ADB5] transition-colors">
+            <a href="mailto:iamtassain@gmail.com" className="text-gray-400 hover:text-[#00ADB5] transition-colors">
               <Mail size={24} />
             </a>
           </motion.div>
